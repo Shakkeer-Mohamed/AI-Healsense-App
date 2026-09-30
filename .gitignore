@@ -1,0 +1,56 @@
+# Node / npm
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.pnpm-debug.log*
+
+# Python / Virtualenv
+.venv/
+venv/
+ENV/
+env/
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+
+# Expo / React Native
+.expo/
+.expo-shared/
+dist/
+web-build/
+*.jks
+*.p8
+*.p12
+*.key
+*.mobileprovision
+*.orig.*
+
+# Android / Gradle
+android_app/.gradle/
+android_app/build/
+android_app/app/build/
+.gradle/
+build/
+local.properties
+*.apk
+*.aab
+
+# Temporary / Uploads / IDE
+uploads/*
+!uploads/.gitkeep
+.agent/
+.kombai/
+.idea/
+.vscode/
+*.swp
+*.swo
+.DS_Store
+Thumbs.db
+
+# Environment variables
+.env
+.env*.local
+*.env
